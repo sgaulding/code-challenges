@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCharacterCountFunction.UI.Console", "WordCharacterCountFunction.UI.Console\WordCharacterCountFunction.UI.Console.csproj", "{A305AFE0-3131-45CB-97E1-B298E9086EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCharacterCountFunction.Tests", "WordCharacterCountFunction.Tests\WordCharacterCountFunction.Tests.csproj", "{62B61228-CDA7-4729-9A08-1725187BF05D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{97078F0E-AB6C-498E-87E8-CF0D5DB2C18E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{817161F0-1EDC-443F-991B-91EADAD38C62}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Test_WordCharacterCountFunction.sh = Scripts\Test_WordCharacterCountFunction.sh
+		Scripts\Test_WordCharacterCountFunction.ps1 = Scripts\Test_WordCharacterCountFunction.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{3E00B712-6F6C-43BD-86EA-84F6B20A04D7}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\Test-Data-20231207-Results.txt = Tests\Test-Data-20231207-Results.txt
+		Tests\Test-Data-20231207.txt = Tests\Test-Data-20231207.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A305AFE0-3131-45CB-97E1-B298E9086EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A305AFE0-3131-45CB-97E1-B298E9086EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A305AFE0-3131-45CB-97E1-B298E9086EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A305AFE0-3131-45CB-97E1-B298E9086EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B61228-CDA7-4729-9A08-1725187BF05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B61228-CDA7-4729-9A08-1725187BF05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B61228-CDA7-4729-9A08-1725187BF05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B61228-CDA7-4729-9A08-1725187BF05D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
