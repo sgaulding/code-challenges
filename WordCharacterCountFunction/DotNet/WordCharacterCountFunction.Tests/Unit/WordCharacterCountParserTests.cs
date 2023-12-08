@@ -9,6 +9,7 @@ public class WordCharacterCountParserTests
     [Theory]
     [InlineData("", "")]
     [InlineData(" ", " ")]
+    [InlineData(" . ", " . ")]
     [InlineData("Hello", "H2o")]
     [InlineData("HelLo", "H2o")]
     [InlineData("Hello,", "H2o,")]
